@@ -1,0 +1,86 @@
+
+  {
+    "pn": "XHP-2",
+    "notes": "2-pin JST XH 2.5mm connector female",
+    "manufacturer": "JST",
+    "mpn": "",
+    "avg_price":"" ,
+    "price_unit": "",
+    "sources": [
+      {
+        "supplier": "JST",
+        "spn": "",
+        "price": "",
+        "price_units":"",
+        "url": "https://www.jst-mfg.com/product/index.php?series=277"
+      }
+    ]
+  },
+    {
+    "pn": "XHP-3",
+    "notes": "3-pin JST XH 2.5mm connector female",
+    "manufacturer": "JST",
+    "mpn": "",
+    "avg_price": ,
+    "price_unit": "",
+    "sources": [
+      {
+        "supplier": "JST",
+        "spn": "",
+        "price": ,
+        "price_units": ,
+        "url": "https://www.jst-mfg.com/product/index.php?series=277"
+      }
+    ]
+  },
+    {
+    "pn": "SMP-08V-BC",
+    "notes": "8-pin JST SM 2.5mm connector SMP-08V-BC",
+    "manufacturer": "JST",
+    "mpn": "",
+    "avg_price": ,
+    "price_unit": "",
+    "sources": [
+      {
+        "supplier": "JST",
+        "spn": "",
+        "price": ,
+        "price_units": ,
+        "url": "https://www.jst-mfg.com/product/index.php?series=277"
+      }
+    ]
+  },
+    {
+    "pn": "SMR-08V-B",
+    "notes": "8-pin JST SM 2.5mm connector SMR-08V-B",
+    "manufacturer": "JST",
+    "mpn": "",
+    "avg_price": ,
+    "price_unit": "",
+    "sources": [
+      {
+        "supplier": "JST",
+        "spn": "",
+        "price": ,
+        "price_units": ,
+        "url": "https://www.jst-mfg.com/product/index.php?series=277"
+      }
+    ]
+  },
+    {
+    "pn": "",
+    "notes": "HC-XHD-2*9AW (2x9-pin) Socket",
+    "manufacturer": "JST",
+    "mpn": "",
+    "avg_price": ,
+    "price_unit": "",
+    "sources": [
+      {
+        "supplier": "JST",
+        "spn": "",
+        "price": ,
+        "price_units": ,
+        "url": "https://www.jst-mfg.com/product/index.php?series=277"
+      }
+    ]
+  },

@@ -1,0 +1,103 @@
+connectors:
+  X1: &boo
+    type: 8-pin JST SM 2.5mm connector SMR-08V-B
+    subtype: male
+    pinlabels: [VCC, GND, NON, S5, S4, S3, S2, S1]
+  X2: &pinJst # define template
+    type: 3-pin JST XH 2.5mm connector
+    subtype: female
+    pinlabels: [VCC, GND, Signal]
+  X3:
+    <<: *pinJst # create from template
+  X4:
+    <<: *pinJst # create from template
+  X5:
+    <<: *pinJst # create from template
+  X6:
+    <<: *pinJst # create from template
+  
+
+cables:
+  W1: &booo # define template
+    colors: [RD, BK, WH] # number of wires implicit in color list
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.036
+  W2: &long_u # define template
+    colors: [RD, BK] # number of wires implicit in color list
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.030
+  W3: &short_u # define template
+    colors: [RD, BK] # number of wires implicit in color list
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.024  
+  W4:
+    <<: *short_u # create from template
+  W5:
+    <<: *long_u # create from template
+  W6: &onecolorGN # define template
+    colors: [GN] # number of wires implicit in color list 
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.054
+  W7: &onecolorYE # define template
+    colors: [YE] # number of wires implicit in color list 
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.066 
+  W8: &onecolorPK # define template
+    colors: [PK] # number of wires implicit in color list 
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.078  
+  W9: &onecolorVT # define template
+    colors: [VT] # number of wires implicit in color list 
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.096
+
+  
+    
+connections:
+  -
+    - X1: [1,2,4]
+    - W1: [1,2,3]
+  -
+    - X1: [1,2,4]
+    - W1: [1,2,3]
+    - X2: [1,2,3]
+  -
+    - X2: [1,2]
+    - W2: [1,2]
+    - X3: [1,2]
+  -
+    - X3: [1,2]
+    - W3: [1,2]
+    - X4: [1,2]
+  -
+    - X4: [1,2]
+    - W4: [1,2]
+    - X5: [1,2]
+  -
+    - X5: [1,2]
+    - W5: [1,2]
+    - X6: [1,2]
+  - 
+   - X1: [5]
+   - W6: [1]
+   - X3: [3]
+  -
+   - X1: [6] 
+   - W7: [1]
+   - X4: [3]
+  - 
+   - X1: [7]
+   - W8: [1]
+   - X5: [3]
+  - 
+   - X1: [8]
+   - W9: [1]
+   - X6: [3]
+ 
