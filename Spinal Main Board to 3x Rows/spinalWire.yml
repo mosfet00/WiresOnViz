@@ -7,7 +7,8 @@ connectors:
   X2: &con_power_s # define template
     type: 8-pin JST SM 2.5mm connector SMP-08V-BC
     subtype: female
-    pinlabels: [ GND, VCC, NON, S5, S4, S3, S2, S1]
+    pinlabels: [S1, S2, S3, S4, S5, NON, VCC, GND]
+    # pinlabels: [ GND, VCC, NON, S5, S4, S3, S2, S1]
   X3:
     <<: *con_power_s # create from template
   X4:
@@ -49,24 +50,26 @@ connections:
   -
     - X1: [18,17]
     - W1: [2,1]
-    - X2: [1,2]
+    - X2: [8,7]
     - W2: [2,1]  
-    - X3: [1,2]
+    - X3: [8,7]
     - W3: [2,1]
-    - X4: [1,2]
-  -
-    - X1: [5,4,3,2,1]
-    - W6: [1,2,3,4,5]
-    - X4: [4,5,6,7,8]
-  -
-    - X1: [10,9,8,7,6]
-    - W5: [1,2,3,4,5]
-    - X3: [4,5,6,7,8]
+    - X4: [8,7]
   -
     - X1: [15,14,13,12,11]
     - W4: [1,2,3,4,5]
-    - X2: [4,5,6,7,8]
+    - X2: [5,4,3,2,1]
   
+  -
+    - X1: [5,4,3,2,1]
+    - W6: [1,2,3,4,5]
+    - X4: [5,4,3,2,1]
+  -
+    - X1: [10,9,8,7,6]
+    - W5: [1,2,3,4,5]
+    - X3: [5,4,3,2,1]
+
+    
   #   - X5: [1,2]
   #   - W5: [1,2]
   #   - X6: [1,2]
