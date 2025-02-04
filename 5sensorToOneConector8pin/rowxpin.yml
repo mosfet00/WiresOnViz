@@ -2,7 +2,8 @@ connectors:
   X1: &boo
     type: 8-pin JST SM 2.5mm connector SMR-08V-B
     subtype: male
-    pinlabels: [VCC, GND, NON, S5, S4, S3, S2, S1]
+    pinlabels: [S1, S2, S3, S4, S5, NON, VCC, GND]
+ #  pinlabels: [VCC, GND, NON, S5, S4, S3, S2, S1]
   X2: &pinJst # define template
     type: 3-pin JST XH 2.5mm connector
     subtype: female
@@ -19,7 +20,7 @@ connectors:
 
 cables:
   W1: &booo # define template
-    colors: [RD, BK, WH] # number of wires implicit in color list
+    colors: [RD, BK, BN] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
     length: 0.036
@@ -61,11 +62,11 @@ cables:
   
     
 connections:
+  # -
+  #   - X1: [7,8,4]
+  #   - W1: [1,2,3]
   -
-    - X1: [1,2,4]
-    - W1: [1,2,3]
-  -
-    - X1: [1,2,4]
+    - X1: [7,8,5]
     - W1: [1,2,3]
     - X2: [1,2,3]
   -
@@ -85,19 +86,19 @@ connections:
     - W5: [1,2]
     - X6: [1,2]
   - 
-   - X1: [5]
+   - X1: [4]
    - W6: [1]
    - X3: [3]
   -
-   - X1: [6] 
+   - X1: [3] 
    - W7: [1]
    - X4: [3]
-  - 
-   - X1: [7]
+  -
+   - X1: [2]
    - W8: [1]
    - X5: [3]
   - 
-   - X1: [8]
+   - X1: [1]
    - W9: [1]
    - X6: [3]
  

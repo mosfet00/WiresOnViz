@@ -21,35 +21,35 @@ graph {
  <tr><td>
   <table border="0" cellspacing="0" cellpadding="3" cellborder="1">
    <tr>
-    <td>VCC</td>
+    <td>S1</td>
     <td port="p1r">1</td>
    </tr>
    <tr>
-    <td>GND</td>
+    <td>S2</td>
     <td port="p2r">2</td>
    </tr>
    <tr>
-    <td>NON</td>
+    <td>S3</td>
     <td port="p3r">3</td>
    </tr>
    <tr>
-    <td>S5</td>
+    <td>S4</td>
     <td port="p4r">4</td>
    </tr>
    <tr>
-    <td>S4</td>
+    <td>S5</td>
     <td port="p5r">5</td>
    </tr>
    <tr>
-    <td>S3</td>
+    <td>NON</td>
     <td port="p6r">6</td>
    </tr>
    <tr>
-    <td>S2</td>
+    <td>VCC</td>
     <td port="p7r">7</td>
    </tr>
    <tr>
-    <td>S1</td>
+    <td>GND</td>
     <td port="p8r">8</td>
    </tr>
   </table>
@@ -229,19 +229,13 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff0000:#000000"]
-	X1:p1r:e -- W1:w1:w
-	edge [color="#000000:#000000:#000000"]
-	X1:p2r:e -- W1:w2:w
-	edge [color="#000000:#ffffff:#000000"]
-	X1:p4r:e -- W1:w3:w
-	edge [color="#000000:#ff0000:#000000"]
-	X1:p1r:e -- W1:w1:w
+	X1:p7r:e -- W1:w1:w
 	W1:w1:e -- X2:p1l:w
 	edge [color="#000000:#000000:#000000"]
-	X1:p2r:e -- W1:w2:w
+	X1:p8r:e -- W1:w2:w
 	W1:w2:e -- X2:p2l:w
-	edge [color="#000000:#ffffff:#000000"]
-	X1:p4r:e -- W1:w3:w
+	edge [color="#000000:#895956:#000000"]
+	X1:p5r:e -- W1:w3:w
 	W1:w3:e -- X2:p3l:w
 	W1 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -261,7 +255,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:1:VCC</td>
+    <td>X1:7:VCC</td>
     <td>
      1:RD
     </td>
@@ -277,7 +271,7 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>X1:2:GND</td>
+    <td>X1:8:GND</td>
     <td>
      2:BK
     </td>
@@ -293,9 +287,9 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>X1:4:S5</td>
+    <td>X1:5:S5</td>
     <td>
-     3:WH
+     3:BN
     </td>
     <td>X2:3:Signal</td>
    </tr>
@@ -303,7 +297,7 @@ graph {
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w3" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ffffff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -554,7 +548,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#00ff00:#000000"]
-	X1:p5r:e -- W6:w1:w
+	X1:p4r:e -- W6:w1:w
 	W6:w1:e -- X3:p3l:w
 	W6 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -574,7 +568,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:5:S4</td>
+    <td>X1:4:S4</td>
     <td>
      1:GN
     </td>
@@ -595,7 +589,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ffff00:#000000"]
-	X1:p6r:e -- W7:w1:w
+	X1:p3r:e -- W7:w1:w
 	W7:w1:e -- X4:p3l:w
 	W7 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -615,7 +609,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:6:S3</td>
+    <td>X1:3:S3</td>
     <td>
      1:YE
     </td>
@@ -636,7 +630,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#ff66cc:#000000"]
-	X1:p7r:e -- W8:w1:w
+	X1:p2r:e -- W8:w1:w
 	W8:w1:e -- X5:p3l:w
 	W8 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -656,7 +650,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:7:S2</td>
+    <td>X1:2:S2</td>
     <td>
      1:PK
     </td>
@@ -677,7 +671,7 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#8000ff:#000000"]
-	X1:p8r:e -- W9:w1:w
+	X1:p1r:e -- W9:w1:w
 	W9:w1:e -- X6:p3l:w
 	W9 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
@@ -697,7 +691,7 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:8:S1</td>
+    <td>X1:1:S1</td>
     <td>
      1:VT
     </td>
