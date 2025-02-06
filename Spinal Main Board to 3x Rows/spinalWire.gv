@@ -449,20 +449,20 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#895956:#000000"]
-	X1:p15r:e -- W4:w1:w
-	W4:w1:e -- X2:p5l:w
+	X1:p15r:e -- W4:w5:w
+	W4:w5:e -- X2:p5l:w
 	edge [color="#000000:#00ff00:#000000"]
-	X1:p14r:e -- W4:w2:w
-	W4:w2:e -- X2:p4l:w
+	X1:p14r:e -- W4:w4:w
+	W4:w4:e -- X2:p4l:w
 	edge [color="#000000:#ffff00:#000000"]
 	X1:p13r:e -- W4:w3:w
 	W4:w3:e -- X2:p3l:w
 	edge [color="#000000:#ff66cc:#000000"]
-	X1:p12r:e -- W4:w4:w
-	W4:w4:e -- X2:p2l:w
+	X1:p12r:e -- W4:w2:w
+	W4:w2:e -- X2:p2l:w
 	edge [color="#000000:#8000ff:#000000"]
-	X1:p11r:e -- W4:w5:w
-	W4:w5:e -- X2:p1l:w
+	X1:p11r:e -- W4:w1:w
+	W4:w1:e -- X2:p1l:w
 	W4 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -481,33 +481,33 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:15:S15</td>
+    <td>X1:11:S11</td>
     <td>
-     1:BN
+     1:VT
     </td>
-    <td>X2:5:S5</td>
+    <td>X2:1:S1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>X1:14:S14</td>
+    <td>X1:12:S12</td>
     <td>
-     2:GN
+     2:PK
     </td>
-    <td>X2:4:S4</td>
+    <td>X2:2:S2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff66cc" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -529,33 +529,33 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>X1:12:S12</td>
+    <td>X1:14:S14</td>
     <td>
-     4:PK
+     4:GN
     </td>
-    <td>X2:2:S2</td>
+    <td>X2:4:S4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff66cc" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>X1:11:S11</td>
+    <td>X1:15:S15</td>
     <td>
-     5:VT
+     5:BN
     </td>
-    <td>X2:1:S1</td>
+    <td>X2:5:S5</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -566,20 +566,20 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#895956:#000000"]
-	X1:p10r:e -- W5:w1:w
-	W5:w1:e -- X3:p5l:w
+	X1:p10r:e -- W5:w5:w
+	W5:w5:e -- X3:p5l:w
 	edge [color="#000000:#00ff00:#000000"]
-	X1:p9r:e -- W5:w2:w
-	W5:w2:e -- X3:p4l:w
+	X1:p9r:e -- W5:w4:w
+	W5:w4:e -- X3:p4l:w
 	edge [color="#000000:#ffff00:#000000"]
 	X1:p8r:e -- W5:w3:w
 	W5:w3:e -- X3:p3l:w
 	edge [color="#000000:#ff66cc:#000000"]
-	X1:p7r:e -- W5:w4:w
-	W5:w4:e -- X3:p2l:w
+	X1:p7r:e -- W5:w2:w
+	W5:w2:e -- X3:p2l:w
 	edge [color="#000000:#8000ff:#000000"]
-	X1:p6r:e -- W5:w5:w
-	W5:w5:e -- X3:p1l:w
+	X1:p6r:e -- W5:w1:w
+	W5:w1:e -- X3:p1l:w
 	W5 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -598,33 +598,33 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:10:S10</td>
+    <td>X1:6:S6</td>
     <td>
-     1:BN
+     1:VT
     </td>
-    <td>X3:5:S5</td>
+    <td>X3:1:S1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>X1:9:S9</td>
+    <td>X1:7:S7</td>
     <td>
-     2:GN
+     2:PK
     </td>
-    <td>X3:4:S4</td>
+    <td>X3:2:S2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff66cc" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -646,33 +646,33 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>X1:7:S7</td>
+    <td>X1:9:S9</td>
     <td>
-     4:PK
+     4:GN
     </td>
-    <td>X3:2:S2</td>
+    <td>X3:4:S4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff66cc" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>X1:6:S6</td>
+    <td>X1:10:S10</td>
     <td>
-     5:VT
+     5:BN
     </td>
-    <td>X3:1:S1</td>
+    <td>X3:5:S5</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -683,20 +683,20 @@ graph {
 </table>
 > fillcolor="#FFFFFF" shape=box style=filled]
 	edge [color="#000000:#895956:#000000"]
-	X1:p5r:e -- W6:w1:w
-	W6:w1:e -- X4:p5l:w
+	X1:p5r:e -- W6:w5:w
+	W6:w5:e -- X4:p5l:w
 	edge [color="#000000:#00ff00:#000000"]
-	X1:p4r:e -- W6:w2:w
-	W6:w2:e -- X4:p4l:w
+	X1:p4r:e -- W6:w4:w
+	W6:w4:e -- X4:p4l:w
 	edge [color="#000000:#ffff00:#000000"]
 	X1:p3r:e -- W6:w3:w
 	W6:w3:e -- X4:p3l:w
 	edge [color="#000000:#ff66cc:#000000"]
-	X1:p2r:e -- W6:w4:w
-	W6:w4:e -- X4:p2l:w
+	X1:p2r:e -- W6:w2:w
+	W6:w2:e -- X4:p2l:w
 	edge [color="#000000:#8000ff:#000000"]
-	X1:p1r:e -- W6:w5:w
-	W6:w5:e -- X4:p1l:w
+	X1:p1r:e -- W6:w1:w
+	W6:w1:e -- X4:p1l:w
 	W6 [label=<
 <table border="0" cellspacing="0" cellpadding="0">
  <tr><td>
@@ -715,33 +715,33 @@ graph {
   <table border="0" cellspacing="0" cellborder="0">
    <tr><td>&nbsp;</td></tr>
    <tr>
-    <td>X1:5:S5</td>
+    <td>X1:1:S1</td>
     <td>
-     1:BN
+     1:VT
     </td>
-    <td>X4:5:S5</td>
+    <td>X4:1:S1</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w1" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>X1:4:S4</td>
+    <td>X1:2:S2</td>
     <td>
-     2:GN
+     2:PK
     </td>
-    <td>X4:4:S4</td>
+    <td>X4:2:S2</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w2" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff66cc" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
@@ -763,33 +763,33 @@ graph {
     </td>
    </tr>
    <tr>
-    <td>X1:2:S2</td>
+    <td>X1:4:S4</td>
     <td>
-     4:PK
+     4:GN
     </td>
-    <td>X4:2:S2</td>
+    <td>X4:4:S4</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w4" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#ff66cc" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#00ff00" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>
    </tr>
    <tr>
-    <td>X1:1:S1</td>
+    <td>X1:5:S5</td>
     <td>
-     5:VT
+     5:BN
     </td>
-    <td>X4:1:S1</td>
+    <td>X4:5:S5</td>
    </tr>
    <tr>
     <td colspan="3" border="0" cellspacing="0" cellpadding="0" port="w5" height="6">
      <table cellspacing="0" cellborder="0" border="0">
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
-      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#8000ff" border="0"></td></tr>
+      <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#895956" border="0"></td></tr>
       <tr><td colspan="3" cellpadding="0" height="2" bgcolor="#000000" border="0"></td></tr>
      </table>
     </td>

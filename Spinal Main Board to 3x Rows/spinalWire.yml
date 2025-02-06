@@ -32,17 +32,19 @@ cables:
     show_equiv: true
     length: 0.142
   W4: 
-    colors: [BN, GN, YE, PK, VT] # number of wires implicit in color list
+    colors: [VT, PK, YE, GN, BN]  # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
     length: 0.038 
   W5:
-    colors: [BN, GN, YE, PK, VT] # number of wires implicit in color list
+    colors: [VT, PK, YE, GN, BN] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
     length: 0.070  
   W6:
-    colors: [BN, GN, YE, PK, VT] # number of wires implicit in color list
+    colors: [VT, PK, YE, GN, BN]  # number of wires implicit in color list
+    # colors: [VT, PK, YE, GN, BN] 
+    # colors: [BN, GN, YE, PK, VT] 
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
     length: 0.102 
@@ -57,16 +59,16 @@ connections:
     - X4: [8,7]
   -
     - X1: [15,14,13,12,11]
-    - W4: [1,2,3,4,5]
+    - W4: [5,4,3,2,1]
     - X2: [5,4,3,2,1]
   
   -
     - X1: [5,4,3,2,1]
-    - W6: [1,2,3,4,5]
+    - W6: [5,4,3,2,1]
     - X4: [5,4,3,2,1]
   -
     - X1: [10,9,8,7,6]
-    - W5: [1,2,3,4,5]
+    - W5: [5,4,3,2,1]
     - X3: [5,4,3,2,1]
 
     
