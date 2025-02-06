@@ -21,17 +21,17 @@ cables:
     colors: [RD, BK] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.038
+    length: 0.38
   W2: &long_u # define template
     colors: [RD, BK] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.036
+    length: 0.36
   W3: &short_u # define template
     colors: [RD, BK] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.031 
+    length: 0.31 
   W4:
     <<: *short_u # create from template
   W5:
