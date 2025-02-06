@@ -20,34 +20,34 @@ cables:
     colors: [RD, BK] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.038
+    length: 0.38
   W2:  
     colors: [RD, BK] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.090
+    length: 0.90
   W3: 
     colors: [RD, BK] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.142
+    length: 1.42
   W4: 
     colors: [VT, PK, YE, GN, BN]  # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.038 
+    length: 0.38 
   W5:
     colors: [VT, PK, YE, GN, BN] # number of wires implicit in color list
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.070  
+    length: 0.70  
   W6:
     colors: [VT, PK, YE, GN, BN]  # number of wires implicit in color list
     # colors: [VT, PK, YE, GN, BN] 
     # colors: [BN, GN, YE, PK, VT] 
     gauge: 22 awg # assume mm2 if no gauge unit is specified
     show_equiv: true
-    length: 0.102 
+    length: 1.02 
 connections:
   -
     - X1: [18,17]
