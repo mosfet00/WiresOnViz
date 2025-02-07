@@ -1,0 +1,63 @@
+connectors:
+  X1: &2pinJst
+    type: 2-pin JST XH 2.5mm connector
+    subtype: female
+    pinlabels: [VCC, GND]
+  X2: &3pinJst # define template
+    type: 3-pin JST XH 2.5mm connector
+    subtype: female
+    pinlabels: [VCC, GND, NON]
+  X3:
+    <<: *3pinJst # create from template
+  X4:
+    <<: *3pinJst # create from template
+  X5:
+    <<: *3pinJst # create from template
+  X6:
+    <<: *3pinJst # create from template
+
+cables:
+  W1:
+    colors: [RD, BK] # number of wires implicit in color list
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.038
+  W2: &long_u # define template
+    colors: [RD, BK] # number of wires implicit in color list
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.036
+  W3: &short_u # define template
+    colors: [RD, BK] # number of wires implicit in color list
+    gauge: 22 awg # assume mm2 if no gauge unit is specified
+    show_equiv: true
+    length: 0.031 
+  W4:
+    <<: *short_u # create from template
+  W5:
+    <<: *long_u # create from template
+  
+  
+   
+
+connections:
+  -
+    - X1: [1-2]
+    - W1: [1-2]
+    - X2: [1-2]
+  -
+    - X3: [1-2]
+    - W2: [1-2]
+    - X2: [1-2]
+  -
+    - X3: [1-2]
+    - W3: [1-2]
+    - X4: [1-2]
+  -
+    - X5: [1-2]
+    - W4: [1-2]
+    - X4: [1-2]
+  -
+    - X5: [1-2]
+    - W5: [1-2]
+    - X6: [1-2]
